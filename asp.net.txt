@@ -1,0 +1,6 @@
+
+ASP.NET, web-inkisaf? ucun dinamik web pages haz?rlamaq ucun n?z?rd? tutulmus bir ac?q m?nb? [2] server-t?r?fli veb t?tbiqi c?rciv?sidir. Microsoft proqramc?lar t?r?find?n dinamik veb-saytlar, veb-proqramlar v? veb xidm?tl?r qurmaga imkan ver?n bir proqramd?r.
+
+Ilk olaraq 2002-ci ilin yanvar ay?nda .NET Framework 1.0 versiyas? il? burax?lm?s v? Microsoftun Active Server Pages (ASP) texnologiyas?n?n varisidir. ASP.NET, h?r hans? bir d?st?kl?n?n .NET dilini istifad? ed?r?k ASP.NET kodunu yazmaga imkan ver?n Common Language Runtime (CLR) uz?rind? qurulmusdur. ASP.NET SOAP m?sl?h?t c?rciv?si ASP.NET komponentl?rin? SOAP mesajlar?n? isl?m?y? imkan verir.
+
+ASP.NET'in varisi ASP.NET Core'dur. ASP.NET'i, Entity Framework kimi dig?r c?rciv?l?rl? birlikd?, modul bir web c?rciv?si kimi yenid?n t?tbiq edir. Yeni c?rciv?d? yeni ac?q m?nb? istifad? olunur. NET Compiler Platformu (codename "Roslyn") v? cross platformad?r. ASP.NET MVC, ASP.NET Web API v? ASP.NET Web Pages (yaln?z Razor s?hif?l?rind?n istifad? ed?n bir platform) vahid MVC 6. birl?sdi. 
