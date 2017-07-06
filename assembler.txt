@@ -1,0 +1,11 @@
+Bir makro assembler bir makro qurma qurgusunu ehtiva edir ki, (parametrelendirilmis) assembly dili m?tn bir adla t?msil edil? bil?r v? bu ad genisl?ndirilmis m?tni dig?r koda daxil etm?k ucun istifad? edil? bil?r.
+Capraz assembler (bax?n h?m d? c?dv?l kompilyatoru) n?tic?l?n?n kodun (h?d?f sistemi) isl?dil?c?yi sistemd?n f?rqli bir tipli bir komputerd? v? ya ?m?liyyat sistemind? (ana sistemd?) isl?y?n assemblerdir. Capraz montaj, qurasd?r?lm?s bir sistem kimi proqram inkisaf?n? d?st?kl?m?k ucun resurslar? olmayan sisteml?ri ucun proqramlar?n inkisaf?n? asanlasd?r?r. Bel? bir v?ziyy?td?, ?ld? edil?n obyekt kodu, h?d?f sistemin? ya obyektin kodunun tam bit-by-bit nusx?sini v? ya birbasa bit-by-bit nusx?sini istifad? ed?r?k, yaln?z oxumaq yaddas (ROM, EPROM, v? s.) V? ya m?lumat baglant?s? vasit?sil? oturulm?lidir. Motorola S-record v? ya Intel HEX kimi kodun m?tn ?sasl? t?qdimat?.
+Yuks?k s?viyy?li assembler inkisaf etmis idar?etm? strukturlar? (IF / THEN / ELSE, DO CASE, v? s.) V? yuks?k s?viyy?li dill?rl? ?laq?li dil abstraktlar?n? t?min ed?n bir proqramd?r. Qeydl?r, birlikl?r, sinifl?r v? d?stl?r.
+Microassembler, komputerin asag? s?viyy?d? isl?m?sini idar? etm?k ucun firmware adlanan mikroprogram haz?rlamaqda kom?k ed?n bir proqramd?r.
+Bir meta-assembler "bir assosiasiya dilinin sintaktik v? semantik t?svirini q?bul ed?n v? bu dil ucun assembler yaratan bir proqram" ucun b?zi dair?l?rd? istifad? olunan bir termindir.
+Bir assembler proqram?, ?m?liyyatlar ucun ?m?liyyat tipl?ri v? sozdiziml?rinin kombinasiyalar?n? t?rcum? etm?kl? v? obyektl?rin kodlar?n? onlar?n say?sal ekvivalentl?rin? cevirm?kl? obyekt kodunu yarad?r. Bu numay?nd?lik ad?t?n ?m?liyyat kodunu ("opcode"), el?c? d? dig?r n?zar?t bitl?rini v? m?lumatlar?n? ehtiva edir. Assambir da sabit ifad?l?ri hesablay?r v? yaddas yerl?ri v? dig?r s?xsl?r ucun simvolik adlar? h?ll edir. [4] Simvolik istinadlar?n istifad?si, proqram d?yisiklikl?rind?n sonra z?rif hesablamalar v? ?l il? unvan? yenil?m?l?ri q?na?t ed?n birl?sm?nin ?sas xususiyy?tl?rind?n biridir. ?n cox montajc?lar h?mcinin m?tnli ?v?zi yerin? yetirm?k ucun makro obyektl?ri - m?s?l?n, inline olan umumi qaydalara q?sa ard?c?ll?qla cag?r?lan subroutines yerin? yetirm?k ucun daxildir.
+
+
+
+
+

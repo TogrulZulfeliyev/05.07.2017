@@ -1,0 +1,22 @@
+ALGOL ?n?n?sind? ?n cox vacib dill?ri oldugu kimi, C d? strukturlasd?r?lm?s proqramlasd?rma ucun imkanlara malikdir v? statik tipli bir sistem cox ist?m?y?n ?m?liyyatlar? mane? tor?d?rk?n leksik d?yis?n ?hat? dair?si v? recursiona imkan verir. C-d? butun ?m?l kodu "funksiyalar?" deyil?n subrutinl?r icind?dir (funksional proqramlasd?rman?n ciddi m?nas?nda deyil). Islev parametrl?ri h?mis? d?y?rl? q?bul olunur. Pass-by-reference, ac?q gost?rici gost?ricil?ri il? C-d? simulyasiya edilir. C proqram? qaynaq m?tni, b?yan bloklar?n?n birl?sm?si ucun noqt? nisan? terminator v? k?v?rc?k braces kimi istifad? ed?r?k pulsuz formatd?r.
+
+C dili d? asag?dak? xususiyy?tl?r? malikdir:
+
+Klaviatura, ilk novb?d?, n?zar?t primitiv ax?n?n?n tam d?stini ehtiva ed?n kicik, sabit say?d?r: for / else, while, switch, v? do / while. User-mu?yy?n adlar h?r hans? bir sigil t?r?find?n acar sozl?rd?n f?rql?nmir.
++, + =, ++, v?, v? s. Kimi cox sayda arifmetik v? m?ntiqi operatorlar var.
+Bird?n cox taps?r?q t?k bir b?yanatda veril? bil?r.
+Laz?m olmad?qda funksiya qaytarma d?y?rl?ri goz ard? edil? bil?r.
+Yazma statikdir, lakin z?if t?tbiq olunur: butun m?lumatlar bir novudur, lakin gizli donusuml?r edil? bil?r.
+B?yannam? sintaksis istifad? kontekstini t?qlid edir. C "mu?yy?n" sozun? malik deyil; Bunun ?v?zin?, bir novu il? baslayan bir b?yanat b?yannam? olaraq al?n?r. Hec bir "funksiya" sozu yoxdur; Bunun ?v?zind? bir funksiya bir arguman siyah?s?n?n parantezl?ri il? gost?rilir.
+Istifad?ci t?r?find?n mu?yy?n edilmis (typedef) v? mur?kk?b novl?ri mumkundur.
+Heterojen m?cmu m?lumat novl?ri (struct), ?laq?li m?lumat elementl?rin? bir vahid olaraq daxil olmaq v? t?yin etm?k imkan? verir.
+Array indeksl?sdirilm?si gost?rici aritmetik bax?m?ndan mu?yy?n edilmis ikinci bir qeyddir. Yap?lardan f?rqli olaraq, dizil?r birinci sinif obyektl?r deyil; Vahid qurasd?r?lm?s operatorlar vasit?sil? t?yin v? ya muqayis? edil? bilm?z. Istifad? v? ya t?rifd? hec bir "array" sozu yoxdur; Bunun ?v?zin? kvadrat mot?riz?l?r dizil?r? sintaktik olaraq, m?s?l?n, ay [11] gost?rir.
+Enum sozu il? say?lan novl?r mumkundur. Onlar etiketl?nmir v? tamsay?larla s?rb?st s?kild? ?laq? saxlay?rlar.
+Strings ayr? bir veri novu deyil, lakin konvansiyonel olaraq null-terminated simvollar dizisi kimi t?tbiq olunur.
+Komputer yaddas?na asag? s?viyy?li giris mas?n unvanlar?n? yaz?lm?s gost?ricil?r? cevirm?kl? mumkundur.
+Prosedurlar? (d?y?rl?ri qaytarmayan proqram) xususi bir is funksiyas?d?r, untyped return type void.
+Funksiyalar dig?r funksiyalar?n t?rkib hiss?si c?rciv?sind? mu?yy?n edil? bilm?z.
+Islev v? m?lumat gost?ricil?ri ad hoc run-time polimorfizmin? icaz? verir.
+A preprocessor makro t?sviri, m?nb? kodu fayl?n?n daxil edilm?si v? s?rti t?rtib edir.
+Modulyarl?g?n ?sas bir formas? var: fayllar ayr?-ayr? t?rtib edil? bil?r v? funksiyalar v? m?lumat obyektl?rinin dig?r fayllara statik v? xarici xususiyy?tl?r vasit?sil? gorunm?sini n?zar?t etm?kl? birlikd? birl?sdiril? bil?r.
+I / O, simli manipulyasiya v? riyazi funksiyalar kimi kompleks funksiyalar ard?c?l olaraq kitabxana rutinl?rin? oturulur.
